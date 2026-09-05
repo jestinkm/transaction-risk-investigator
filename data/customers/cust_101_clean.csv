@@ -1,0 +1,167 @@
+txn_id,date,time,description,payee,amount,channel,category
+T00001,2026-06-01,06:46,Amazon Retail,Amazon Retail,1852.11,ATM,groceries
+T00002,2026-06-01,11:44,HP Petrol Pump,HP Petrol Pump,2439.21,UPI,groceries
+T00003,2026-06-01,18:17,Local Kirana Store,Local Kirana Store,321.98,netbanking,rent
+T00004,2026-06-01,22:15,Big Bazaar Retail,Big Bazaar Retail,3466.61,UPI,rent
+T00005,2026-06-02,10:13,Netflix India,Netflix India,1805.93,netbanking,utilities
+T00006,2026-06-02,10:46,Amazon Retail,Amazon Retail,2742.12,card,salary_credit
+T00007,2026-06-02,12:41,Swiggy,Swiggy,451.52,netbanking,salary_credit
+T00008,2026-06-02,22:58,BookMyShow,BookMyShow,1200.88,card,utilities
+T00009,2026-06-03,09:05,Landlord - R. Iyer,Landlord - R. Iyer,3837.41,netbanking,dining
+T00010,2026-06-03,10:16,Airtel Postpaid,Airtel Postpaid,2097.08,ATM,groceries
+T00011,2026-06-03,22:38,State Electricity Board,State Electricity Board,3507.97,netbanking,dining
+T00012,2026-06-04,17:38,BookMyShow,BookMyShow,1643.72,netbanking,fuel
+T00013,2026-06-04,19:57,Amazon Retail,Amazon Retail,730.6,netbanking,utilities
+T00014,2026-06-04,22:58,HP Petrol Pump,HP Petrol Pump,780.79,card,fuel
+T00015,2026-06-05,06:07,Big Bazaar Retail,Big Bazaar Retail,2475.99,ATM,shopping
+T00016,2026-06-05,13:08,Employer Payroll,Employer Payroll,2417.43,netbanking,dining
+T00017,2026-06-05,20:34,State Electricity Board,State Electricity Board,1205.18,UPI,shopping
+T00018,2026-06-06,07:55,Employer Payroll,Employer Payroll,2136.2,UPI,fuel
+T00019,2026-06-06,08:35,Airtel Postpaid,Airtel Postpaid,674.34,ATM,subscription
+T00020,2026-06-06,13:03,Netflix India,Netflix India,3539.14,netbanking,subscription
+T00021,2026-06-07,08:46,HP Petrol Pump,HP Petrol Pump,3536.44,UPI,rent
+T00022,2026-06-07,12:45,Netflix India,Netflix India,1314.08,netbanking,rent
+T00023,2026-06-07,19:38,Zomato,Zomato,616.67,card,shopping
+T00024,2026-06-08,10:42,Employer Payroll,Employer Payroll,3300.89,card,salary_credit
+T00025,2026-06-08,15:05,BookMyShow,BookMyShow,464.31,card,salary_credit
+T00026,2026-06-08,20:33,Big Bazaar Retail,Big Bazaar Retail,441.41,ATM,subscription
+T00027,2026-06-09,09:43,HP Petrol Pump,HP Petrol Pump,1155.37,UPI,rent
+T00028,2026-06-09,14:33,Employer Payroll,Employer Payroll,3798.02,card,groceries
+T00029,2026-06-09,18:17,Swiggy,Swiggy,3450.21,UPI,groceries
+T00030,2026-06-10,11:23,Amazon Retail,Amazon Retail,1922.96,netbanking,utilities
+T00031,2026-06-10,12:45,Local Kirana Store,Local Kirana Store,1807.92,card,utilities
+T00032,2026-06-10,16:07,Zomato,Zomato,3562.2,netbanking,salary_credit
+T00033,2026-06-11,08:38,State Electricity Board,State Electricity Board,1550.03,netbanking,dining
+T00034,2026-06-11,20:57,Amazon Retail,Amazon Retail,1716.17,netbanking,dining
+T00035,2026-06-12,11:29,Big Bazaar Retail,Big Bazaar Retail,2612.92,card,fuel
+T00036,2026-06-12,13:04,Zomato,Zomato,1915.65,card,fuel
+T00037,2026-06-13,13:00,Netflix India,Netflix India,279.93,card,shopping
+T00038,2026-06-13,16:53,Local Kirana Store,Local Kirana Store,1641.93,card,shopping
+T00039,2026-06-14,13:04,State Electricity Board,State Electricity Board,2889.8,UPI,subscription
+T00040,2026-06-14,13:52,Landlord - R. Iyer,Landlord - R. Iyer,3119.59,UPI,subscription
+T00041,2026-06-15,07:25,Employer Payroll,Employer Payroll,2758.79,UPI,groceries
+T00042,2026-06-15,10:27,State Electricity Board,State Electricity Board,928.04,ATM,fuel
+T00043,2026-06-15,19:22,Employer Payroll,Employer Payroll,923.56,UPI,rent
+T00044,2026-06-16,07:41,HP Petrol Pump,HP Petrol Pump,1883.9,UPI,utilities
+T00045,2026-06-19,07:10,Employer Payroll,Employer Payroll,1012.24,ATM,salary_credit
+T00046,2026-06-20,07:37,Zomato,Zomato,3042.31,UPI,groceries
+T00047,2026-06-20,12:03,BookMyShow,BookMyShow,788.23,netbanking,salary_credit
+T00048,2026-06-20,15:27,Landlord - R. Iyer,Landlord - R. Iyer,3720.77,ATM,shopping
+T00049,2026-06-21,07:39,Airtel Postpaid,Airtel Postpaid,1734.35,card,fuel
+T00050,2026-06-21,11:04,Zomato,Zomato,416.14,UPI,dining
+T00051,2026-06-21,16:15,Airtel Postpaid,Airtel Postpaid,3751.88,card,subscription
+T00052,2026-06-22,06:29,Airtel Postpaid,Airtel Postpaid,1937.45,UPI,shopping
+T00053,2026-06-22,22:16,Local Kirana Store,Local Kirana Store,478.39,card,utilities
+T00054,2026-06-23,20:53,State Electricity Board,State Electricity Board,1604.2,card,fuel
+T00055,2026-06-24,09:56,Airtel Postpaid,Airtel Postpaid,2737.88,netbanking,groceries
+T00056,2026-06-24,14:18,State Electricity Board,State Electricity Board,3021.18,card,utilities
+T00057,2026-06-25,07:05,HP Petrol Pump,HP Petrol Pump,2120.55,netbanking,shopping
+T00058,2026-06-26,08:56,Zomato,Zomato,2331.45,UPI,rent
+T00059,2026-06-26,14:10,Big Bazaar Retail,Big Bazaar Retail,1467.51,card,groceries
+T00060,2026-06-26,19:08,Swiggy,Swiggy,3371.46,card,groceries
+T00061,2026-06-28,09:22,Big Bazaar Retail,Big Bazaar Retail,998.29,card,subscription
+T00062,2026-06-28,11:51,Landlord - R. Iyer,Landlord - R. Iyer,3717.9,card,dining
+T00063,2026-06-29,19:51,Big Bazaar Retail,Big Bazaar Retail,2998.94,netbanking,dining
+T00064,2026-06-30,21:14,BookMyShow,BookMyShow,1653.66,UPI,utilities
+T00065,2026-07-01,13:01,Employer Payroll,Employer Payroll,1359.73,card,subscription
+T00066,2026-07-02,17:41,Amazon Retail,Amazon Retail,3874.18,netbanking,utilities
+T00067,2026-07-03,14:02,Landlord - R. Iyer,Landlord - R. Iyer,1663.74,card,utilities
+T00068,2026-07-03,14:11,Zomato,Zomato,3769.1,UPI,subscription
+T00069,2026-07-03,17:46,Amazon Retail,Amazon Retail,611.93,ATM,groceries
+T00070,2026-07-04,11:39,Zomato,Zomato,928.99,ATM,dining
+T00071,2026-07-04,16:25,State Electricity Board,State Electricity Board,2127.07,ATM,shopping
+T00072,2026-07-04,16:39,Zomato,Zomato,1584.04,UPI,fuel
+T00073,2026-07-05,08:18,Airtel Postpaid,Airtel Postpaid,2142.46,card,fuel
+T00074,2026-07-05,16:29,Big Bazaar Retail,Big Bazaar Retail,1290.27,ATM,shopping
+T00075,2026-07-06,10:01,HP Petrol Pump,HP Petrol Pump,1053.63,card,shopping
+T00076,2026-07-06,18:31,Employer Payroll,Employer Payroll,1930.58,card,utilities
+T00077,2026-07-07,09:29,BookMyShow,BookMyShow,390.83,card,salary_credit
+T00078,2026-07-07,19:14,Airtel Postpaid,Airtel Postpaid,3592.11,UPI,groceries
+T00079,2026-07-07,22:27,Employer Payroll,Employer Payroll,3810.15,ATM,subscription
+T00080,2026-07-08,14:49,BookMyShow,BookMyShow,1910.27,card,salary_credit
+T00081,2026-07-08,15:15,Employer Payroll,Employer Payroll,1243.47,UPI,fuel
+T00082,2026-07-08,18:44,Netflix India,Netflix India,725.82,card,utilities
+T00083,2026-07-09,19:03,State Electricity Board,State Electricity Board,1748.88,ATM,rent
+T00084,2026-07-10,21:00,Landlord - R. Iyer,Landlord - R. Iyer,3455.58,ATM,groceries
+T00085,2026-07-11,11:53,Employer Payroll,Employer Payroll,1677.66,ATM,groceries
+T00086,2026-07-11,21:14,Landlord - R. Iyer,Landlord - R. Iyer,2245.24,card,rent
+T00087,2026-07-12,08:41,Local Kirana Store,Local Kirana Store,3646.33,UPI,groceries
+T00088,2026-07-12,14:53,Netflix India,Netflix India,1257.38,ATM,rent
+T00089,2026-07-12,16:13,Employer Payroll,Employer Payroll,391.08,ATM,dining
+T00090,2026-07-14,12:29,Swiggy,Swiggy,679.64,UPI,fuel
+T00091,2026-07-14,12:53,Airtel Postpaid,Airtel Postpaid,3066.09,card,groceries
+T00092,2026-07-14,13:41,Zomato,Zomato,3999.65,netbanking,groceries
+T00093,2026-07-15,08:37,Amazon Retail,Amazon Retail,1707.29,card,rent
+T00094,2026-07-15,15:06,Swiggy,Swiggy,3155.61,card,utilities
+T00095,2026-07-16,17:34,Amazon Retail,Amazon Retail,3225.66,UPI,utilities
+T00096,2026-07-17,11:46,Netflix India,Netflix India,2887.77,ATM,salary_credit
+T00097,2026-07-17,20:27,Airtel Postpaid,Airtel Postpaid,2540.47,ATM,shopping
+T00098,2026-07-17,21:06,State Electricity Board,State Electricity Board,248.08,ATM,subscription
+T00099,2026-07-18,13:48,HP Petrol Pump,HP Petrol Pump,1259.93,ATM,utilities
+T00100,2026-07-18,16:11,Local Kirana Store,Local Kirana Store,1478.31,ATM,rent
+T00101,2026-07-19,06:33,Amazon Retail,Amazon Retail,1262.7,netbanking,subscription
+T00102,2026-07-19,08:18,BookMyShow,BookMyShow,1903.06,UPI,salary_credit
+T00103,2026-07-19,13:44,State Electricity Board,State Electricity Board,2936.28,ATM,fuel
+T00104,2026-07-20,21:35,HP Petrol Pump,HP Petrol Pump,2723.05,netbanking,shopping
+T00105,2026-07-21,12:13,State Electricity Board,State Electricity Board,1399.08,card,fuel
+T00106,2026-07-21,14:19,BookMyShow,BookMyShow,1536.88,ATM,subscription
+T00107,2026-07-22,14:02,Amazon Retail,Amazon Retail,2890.47,card,groceries
+T00108,2026-07-22,15:14,Local Kirana Store,Local Kirana Store,3925.94,card,shopping
+T00109,2026-07-22,21:06,Zomato,Zomato,2850.19,card,shopping
+T00110,2026-07-24,10:09,State Electricity Board,State Electricity Board,2068.64,UPI,rent
+T00111,2026-07-24,14:55,Employer Payroll,Employer Payroll,900.58,UPI,subscription
+T00112,2026-07-25,13:49,HP Petrol Pump,HP Petrol Pump,2320.68,ATM,utilities
+T00113,2026-07-25,15:36,Employer Payroll,Employer Payroll,1329.94,ATM,salary_credit
+T00114,2026-07-28,08:10,Amazon Retail,Amazon Retail,796.82,card,utilities
+T00115,2026-07-30,08:03,HP Petrol Pump,HP Petrol Pump,3651.96,card,dining
+T00116,2026-07-30,12:27,Employer Payroll,Employer Payroll,2812.06,netbanking,utilities
+T00117,2026-07-30,15:45,Local Kirana Store,Local Kirana Store,1306.79,card,salary_credit
+T00118,2026-07-31,15:44,Local Kirana Store,Local Kirana Store,1868.78,ATM,shopping
+T00119,2026-08-01,14:11,Swiggy,Swiggy,2172.06,ATM,salary_credit
+T00120,2026-08-01,14:36,Amazon Retail,Amazon Retail,547.04,UPI,groceries
+T00121,2026-08-01,19:47,Zomato,Zomato,1863.48,UPI,salary_credit
+T00122,2026-08-02,14:20,Zomato,Zomato,1928.34,netbanking,groceries
+T00123,2026-08-02,15:42,Swiggy,Swiggy,1764.25,ATM,subscription
+T00124,2026-08-02,16:20,Employer Payroll,Employer Payroll,1986.04,ATM,utilities
+T00125,2026-08-04,09:01,Amazon Retail,Amazon Retail,3547.22,ATM,salary_credit
+T00126,2026-08-04,14:35,Employer Payroll,Employer Payroll,3087.96,card,salary_credit
+T00127,2026-08-04,22:23,Big Bazaar Retail,Big Bazaar Retail,1770.34,card,salary_credit
+T00128,2026-08-05,13:53,Amazon Retail,Amazon Retail,2298.56,UPI,groceries
+T00129,2026-08-07,18:12,Employer Payroll,Employer Payroll,1126.18,card,salary_credit
+T00130,2026-08-07,19:21,Zomato,Zomato,3483.3,netbanking,dining
+T00131,2026-08-07,22:45,Airtel Postpaid,Airtel Postpaid,2093.83,netbanking,dining
+T00132,2026-08-08,10:28,Amazon Retail,Amazon Retail,3382.41,ATM,shopping
+T00133,2026-08-08,20:59,Netflix India,Netflix India,2297.29,ATM,subscription
+T00134,2026-08-09,19:02,BookMyShow,BookMyShow,2372.83,card,fuel
+T00135,2026-08-09,21:02,Employer Payroll,Employer Payroll,1667.1,card,rent
+T00136,2026-08-10,09:33,Local Kirana Store,Local Kirana Store,3504.86,ATM,subscription
+T00137,2026-08-11,07:39,Airtel Postpaid,Airtel Postpaid,3825.73,ATM,rent
+T00138,2026-08-11,08:30,Swiggy,Swiggy,3509.55,card,rent
+T00139,2026-08-11,08:54,Amazon Retail,Amazon Retail,2568.39,ATM,subscription
+T00140,2026-08-13,09:48,Amazon Retail,Amazon Retail,3037.71,ATM,fuel
+T00141,2026-08-15,11:11,Swiggy,Swiggy,2218.43,card,fuel
+T00142,2026-08-15,13:29,Landlord - R. Iyer,Landlord - R. Iyer,2091.14,card,fuel
+T00143,2026-08-15,15:22,Amazon Retail,Amazon Retail,374.77,UPI,groceries
+T00144,2026-08-16,15:43,Airtel Postpaid,Airtel Postpaid,3615.85,ATM,groceries
+T00145,2026-08-16,19:44,State Electricity Board,State Electricity Board,3791.9,netbanking,salary_credit
+T00146,2026-08-17,06:53,Netflix India,Netflix India,3972.23,netbanking,shopping
+T00147,2026-08-17,09:15,Amazon Retail,Amazon Retail,3997.62,ATM,fuel
+T00148,2026-08-18,14:43,Local Kirana Store,Local Kirana Store,1032.22,card,subscription
+T00149,2026-08-18,15:49,Local Kirana Store,Local Kirana Store,3660.34,ATM,groceries
+T00150,2026-08-18,15:50,Airtel Postpaid,Airtel Postpaid,2587.34,UPI,dining
+T00151,2026-08-19,15:47,Swiggy,Swiggy,3673.39,ATM,shopping
+T00152,2026-08-19,16:47,Netflix India,Netflix India,542.51,netbanking,dining
+T00153,2026-08-19,22:32,HP Petrol Pump,HP Petrol Pump,3188.75,netbanking,dining
+T00154,2026-08-20,14:34,Netflix India,Netflix India,3204.59,UPI,utilities
+T00155,2026-08-20,18:54,Employer Payroll,Employer Payroll,734.88,card,utilities
+T00156,2026-08-22,08:40,Big Bazaar Retail,Big Bazaar Retail,3677.97,card,subscription
+T00157,2026-08-22,09:43,BookMyShow,BookMyShow,2421.33,netbanking,shopping
+T00158,2026-08-22,10:02,BookMyShow,BookMyShow,2667.11,UPI,shopping
+T00159,2026-08-24,18:29,State Electricity Board,State Electricity Board,1092.24,card,utilities
+T00160,2026-08-24,19:41,BookMyShow,BookMyShow,2431.89,card,rent
+T00161,2026-08-26,08:42,HP Petrol Pump,HP Petrol Pump,3806.24,ATM,utilities
+T00162,2026-08-26,17:03,Netflix India,Netflix India,3927.53,netbanking,utilities
+T00163,2026-08-26,20:28,Amazon Retail,Amazon Retail,2823.07,card,groceries
+T00164,2026-08-27,13:08,Local Kirana Store,Local Kirana Store,392.2,netbanking,groceries
+T00165,2026-08-28,16:49,Zomato,Zomato,2428.26,card,fuel
+T00166,2026-08-29,10:34,Local Kirana Store,Local Kirana Store,1253.64,card,groceries

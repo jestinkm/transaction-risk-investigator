@@ -1,0 +1,26 @@
+[
+  {
+    "rule_id": "R1_LARGE_TRANSFER",
+    "title": "Unusually Large Transfer",
+    "text": "A transaction is flagged when its amount exceeds the customer's own historical norm by a wide margin: greater than 5x the customer's median transaction amount over the trailing 90 days, AND greater than a floor of INR 50,000 (small accounts should not be flagged for routine-sized 'large' transfers). The comparison is always against the customer's own history, never a fixed population-wide number.",
+    "params": {"multiplier_of_median": 5, "absolute_floor": 50000, "lookback_days": 90}
+  },
+  {
+    "rule_id": "R2_NEW_PAYEE_BURST",
+    "title": "Burst of Payments to a Newly Added Payee",
+    "text": "Novelty can only be judged against an established baseline: a payee's first-ever appearance is only treated as 'new' if it occurs after the customer's first 30 days of observed history (a payee that simply happens to appear early in the observation window is not evidence of anything). For a payee that is genuinely new by that standard, this rule triggers when 3 or more transactions go to them within any rolling 7-day window, or when the combined amount sent to them within 7 days exceeds 3x the customer's median transaction amount.",
+    "params": {"baseline_days": 30, "burst_count": 3, "burst_window_days": 7, "burst_amount_multiplier": 3}
+  },
+  {
+    "rule_id": "R3_ODD_HOURS",
+    "title": "Odd-Hours Activity",
+    "text": "A transaction is flagged as odd-hours if it occurs between 00:00 and 05:00 local time AND the customer has fewer than 5% of their historical transactions in that same window. This protects genuinely nocturnal customers (e.g. shift workers, frequent international transactors) from being flagged for their own normal pattern.",
+    "params": {"window_start_hour": 0, "window_end_hour": 5, "customer_historical_share_threshold": 0.05}
+  },
+  {
+    "rule_id": "R4_PATTERN_BREAK",
+    "title": "Break From Established Category or Channel Pattern",
+    "text": "As with payee novelty, a category can only be judged 'never seen before' against an established baseline: a category's first occurrence is only treated as a genuine pattern break if it happens after the customer's first 30 days of observed history. A break flagged this way is only reported when it also carries an above-median amount \u2014 a new category at a small, in-line amount is not flagged.",
+    "params": {"baseline_days": 30, "amount_must_exceed": "customer_median"}
+  }
+]

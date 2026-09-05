@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Transaction Risk Investigation Assistant</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1>🛡️ Transaction Risk Investigation Assistant</h1>
+        <p class="subtitle">PS06 &middot; Banking Fraud Desk</p>
+      </div>
+      <div class="header-badges">
+        {% if llm_available %}
+          <span class="badge ok">● Gemini connected</span>
+        {% else %}
+          <span class="badge warn">● No GEMINI_API_KEY &mdash; deterministic fallback</span>
+        {% endif %}
+        <span class="badge chain" id="chainBadge">⛓ ledger: &mdash;</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel controls-bar">
+      <label for="customerSelect">Customer history</label>
+      <select id="customerSelect"></select>
+      <button id="loadBtn" class="btn-secondary">Load</button>
+      <button id="investigateBtn" class="btn-primary" disabled>🔍 Run investigation</button>
+      <div id="spinner" class="spinner hidden"><span></span><span></span><span></span></div>
+    </section>
+
+    <!-- Result shown first, above the raw data -->
+    <section class="panel report-panel" id="reportPanel">
+      <h2>Investigation report</h2>
+      <div id="reportWrap"><p class="hint">Select a customer and run an investigation to see the report here.</p></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header-row">
+        <h2>🔒 Security &amp; integrity ledger</h2>
+        <button id="verifyBtn" class="btn-ghost">Verify chain</button>
+      </div>
+      <p class="hint small">
+        Every completed report is sealed into a local hash chain &mdash; each entry embeds the
+        hash of the one before it. Editing a past report after the fact breaks the chain, and
+        "Verify chain" recomputes every hash from the first entry to prove nothing has been altered.
+        This runs entirely on this machine (no external blockchain network is used).
+      </p>
+      <div id="ledgerWrap"><p class="hint">No reports sealed yet.</p></div>
+    </section>
+
+    <section class="panel">
+      <h2>Transaction history</h2>
+      <div id="txnTableWrap"><p class="hint">Load a customer to see their transactions.</p></div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
