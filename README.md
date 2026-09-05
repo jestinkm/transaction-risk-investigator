@@ -214,14 +214,12 @@ You can also add a clickable YouTube thumbnail:
 
 ```html
 <div align="center">
-
-<a href="https://youtu.be/aVX0AmZ_W2s">
-  <img
-    src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg"
-    alt="PS06 Transaction Risk Investigation Assistant Demo"
-    width="850">
-</a>
-
+  <a href="https://youtu.be/aVX0AmZ_W2s">
+    <img
+      src="https://img.youtube.com/vi/aVX0AmZ_W2s/maxresdefault.jpg"
+      alt="PS06 Transaction Risk Investigation Assistant Demo"
+      width="850">
+  </a>
 </div>
 ```
 
