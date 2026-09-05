@@ -1,5 +1,6 @@
 TRACK_ID=PS06
 
+# PS06 — Transaction Risk Investigation Assistant
 
 <div align="center">
 
@@ -62,7 +63,7 @@ src/rules_engine.py
 ```
 
 |  Rule  | Detection                                |
-| :----: | ---------------------------------------- |
+| :----: | :--------------------------------------- |
 | **R1** | Unusually Large Transfer                 |
 | **R2** | Burst of Payments to a Newly Added Payee |
 | **R3** | Odd-Hours Activity                       |
@@ -121,7 +122,7 @@ Each finding contains:
 narrative_source
 ```
 
-This identifies whether the narrative came from Gemini or the fallback template.
+This identifies whether the narrative came from Gemini or the deterministic fallback.
 
 ---
 
@@ -200,28 +201,20 @@ The ledger is a local tamper-evident mechanism and is not a distributed blockcha
 
 **Transaction Analysis → Risk Detection → Evidence → Report → Integrity Verification**
 
+<br>
+
+<a href="https://youtu.be/aVX0AmZ_W2s">
+  <img
+    src="https://img.youtube.com/vi/aVX0AmZ_W2s/maxresdefault.jpg"
+    alt="PS06 Transaction Risk Investigation Assistant Demo"
+    width="850">
+</a>
+
+<br><br>
+
+**Click the preview above to watch the complete project demonstration.**
+
 </div>
-
-### Demo Video
-
-Add your YouTube video here:
-
-```text
-https://youtu.be/aVX0AmZ_W2s
-```
-
-You can also add a clickable YouTube thumbnail:
-
-```html
-<div align="center">
-  <a href="https://youtu.be/aVX0AmZ_W2s">
-    <img
-      src="https://img.youtube.com/vi/aVX0AmZ_W2s/maxresdefault.jpg"
-      alt="PS06 Transaction Risk Investigation Assistant Demo"
-      width="850">
-  </a>
-</div>
-```
 
 ---
 
