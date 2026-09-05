@@ -1,7 +1,5 @@
 TRACK_ID=PS06
-# PS06 — Transaction Risk Investigation Assistant
 
-**TRACK_ID: PS06**
 
 A fraud-desk investigation assistant for a bank. It takes a single customer's transaction history, runs it against a small set of deterministic risk rules, and produces an investigation report that either says plainly **"nothing here needs attention"** or lays out exactly which transactions triggered which rule, how they connect, and what to look at first.
 
